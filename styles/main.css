@@ -9,10 +9,15 @@
      -moz-box-sizing:border-box;
 }
  .container{
-     width:80%;
+     /* width:80%; */
      margin:0 auto;
      overflow:auto;
      padding:2em;
+     background-color: #1e272e;
+}
+.white{
+    color: #fff;
+    font-size: 3vw;
 }
  .skinny{
      width:20%;
@@ -35,7 +40,7 @@
     display: none;
 }
 .bgcolor {
-    background-color: gray;
+    /* background-color: gray; */
 }
 /*BOXES AND POSITIONS*/
  #LEFTY, .lefty{
@@ -92,7 +97,7 @@
 }
 /*COLOURS AND PATTERNS*/
  #WHITEBACK, .container, .whiteback{
-     background-color:#fff;
+     background-color:#1e272e;
 }
  #LIGHT, .light{
      color:#efefea;
